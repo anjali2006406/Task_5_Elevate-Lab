@@ -108,16 +108,16 @@ sns.pairplot(df[['MonthlyCharges', 'TotalCharges', 'tenure', 'Churn']], hue='Chu
 
 # **Key Findings**
 
--- Customers with Fiber Optic internet and high monthly charges are more likely to churn.-- Short tenure and senior citizens are churn-prone.-- Contract type, payment method, and tech support play a significant role in retention.
+- Customers with Fiber Optic internet and high monthly charges are more likely to churn.-- Short tenure and senior citizens are churn-prone.-- Contract type, payment method, and tech support play a significant role in retention.
 
-📂 Recommended GitHub Repo Structure
+ **Recommended GitHub Repo Structure**
 
-Customer-Churn-EDA/
-├── Customer Churn.csv
-├── Customer Churn Analysis.ipynb
-├── Customer Churn Analysis.pdf
-├── README.md
-└── Images/ (Optional: for visual references)
+ Customer-Churn-EDA
+│
+├──  Customer Churn.csv
+├──  Customer Churn Analysis.ipynb
+├──  Customer Churn Analysis.pdf
+├──  README.md
 
 
 ---
