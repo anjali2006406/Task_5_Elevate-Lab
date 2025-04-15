@@ -7,6 +7,8 @@
 
  **Summary:-**
  
+-- **Internet Service vs Churn (Count Plot)**
+ 
 - This plot compares churn behavior across different internet services.
 
 - Fiber Optic users have a significantly higher churn rate compared to other services.
@@ -17,6 +19,10 @@
 
 # Business Insight:
 Customers using fiber optic services may be facing issues such as cost dissatisfaction, technical problems, or competition — indicating a need to assess quality, pricing, or support.
+
+**Observation**
+
+
 
 
 
