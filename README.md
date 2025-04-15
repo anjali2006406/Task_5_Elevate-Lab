@@ -6,7 +6,7 @@
 
  **Overview**
 
---This project involves performing Exploratory Data Analysis (EDA) on a Customer Churn dataset using Python libraries: Pandas, Seaborn, and Matplotlib. The goal is to uncover insights into why customers churn by examining trends, patterns, and correlations within the data.
+- This project involves performing Exploratory Data Analysis (EDA) on a Customer Churn dataset using Python libraries: Pandas, Seaborn, and Matplotlib. The goal is to uncover insights into why customers churn by examining trends, patterns, and correlations within the data.
 
 
  **Dataset Information**
