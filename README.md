@@ -11,11 +11,11 @@
 
  **Dataset Information**
 
--- Total Rows: 7043-- Total Columns: 21-- Target Column: Churn
+- Total Rows: 7043-- Total Columns: 21-- Target Column: Churn
 
--- Contains a mix of numerical and categorical variables related to customer profiles, service usage, and account info.
+- Contains a mix of numerical and categorical variables related to customer profiles, service usage, and account info.
 
--- Key Columns:
+- Key Columns:
 
 tenure, MonthlyCharges, TotalCharges
 
@@ -34,7 +34,7 @@ import seaborn as sns
 
 # **Data Cleaning**
 
--- Loaded the dataset: Customer Churn.csv-- Replaced blank values in TotalCharges with 0 and converted it to float.-- Confirmed:
+- Loaded the dataset: Customer Churn.csv-- Replaced blank values in TotalCharges with 0 and converted it to float.-- Confirmed:
 
 No null values ✅
 
@@ -42,7 +42,7 @@ No duplicate rows ✅
 
 **Data Overview & Descriptive Statistics**
 
--- Used .info() and .describe() to understand data types and distributions.-- Descriptive insights:
+- Used .info() and .describe() to understand data types and distributions.-- Descriptive insights:
 
 - Mean tenure: 32.3 months
 
@@ -56,7 +56,7 @@ No duplicate rows ✅
 
 # ** Graphical Analysis with Insights**
 
--- **Internet Service vs Churn**
+ **Internet Service vs Churn**
 
 sns.countplot(x='InternetService', hue='Churn', data=df, palette={'No':'lightgreen','Yes':'salmon'})
 
@@ -125,31 +125,31 @@ Customer-Churn-EDA/
 
  **Interview Questions & Prep**
 
--- 1. What is EDA and why is it important?
+-  What is EDA and why is it important?
 
 It is the process of visually and statistically analyzing data to find patterns, anomalies, and trends.
 
--- 2. Which plots are used to check correlation?
+- Which plots are used to check correlation?
 
 Heatmap, Pairplot
 
--- 3. How do you handle skewed data?
+-  How do you handle skewed data?
 
 Use log/sqrt transformation or detect via boxplots.
 
--- 4. How to detect multicollinearity?
+- How to detect multicollinearity?
 
 Use correlation matrix or VIF scores.
 
--- 5. What are univariate, bivariate, and multivariate analyses?
+- What are univariate, bivariate, and multivariate analyses?
 
 Univariate = 1 variable; Bivariate = 2 variables; Multivariate = 2+ variables
 
--- 6. Difference between heatmap and pairplot?
+- Difference between heatmap and pairplot?
 
 Heatmap shows correlations; pairplot shows scatter plots + histograms.
 
--- 7. How do you summarize your insights?
+- How do you summarize your insights?
 
 Through visuals + bullet points highlighting key trends.
 
