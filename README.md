@@ -54,7 +54,7 @@ No duplicate rows ✅
 
 ---
 
-# ** Graphical Analysis with Insights**
+# **Graphical Analysis with Insights**
 
  **Internet Service vs Churn**
 
@@ -63,7 +63,7 @@ sns.countplot(x='InternetService', hue='Churn', data=df, palette={'No':'lightgre
   **Insight: Customers with Fiber Optic internet have a higher churn rate.**
   
 
-# ** Senior Citizens and Churn**
+# **Senior Citizens and Churn**
 
 sns.countplot(x='SeniorCitizen', hue='Churn', data=df, palette='Set2')
 
