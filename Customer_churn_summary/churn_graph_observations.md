@@ -35,7 +35,7 @@ Customers using fiber optic services may be facing issues such as cost dissatisf
 
 ---
 
-2.**Churn by Senior Citizen (Bar Plot)**
+2.**Churn by Senior Citizen (Count Plot)**
 
 - Graph Type: Countplot
 - Columns used: SeniorCitizen, Churn
@@ -59,7 +59,35 @@ Senior citizens might need better guidance or personalized service plans. Target
 
 ---
 
+3.**Correlation Heatmap**
 
+- Graph Type: Heatmap
+- Columns used: Numerical features (tenure, MonthlyCharges, TotalCharges)
+
+- This heatmap visualizes correlation between numeric features.
+
+- Tenure and TotalCharges have a strong positive correlation, as expected (more time = higher total bill).
+
+- MonthlyCharges has a moderate correlation with TotalCharges.
+
+- No numeric feature shows a direct strong correlation with Churn.
+
+ # Business Insight:
+Although Churn doesn’t correlate directly, combinations like low tenure + high MonthlyCharges might indicate churn risk. It highlights the need for multivariate analysis.
+
+**Observation**
+
+- Strong positive correlation between TotalCharges and tenure (makes sense: more tenure = higher total bill).
+
+- MonthlyCharges and TotalCharges also show moderate positive correlation.
+
+- Churn does not correlate highly with any numeric field directly but is visually associated with tenure and charges when combined.
+
+  ![image](https://github.com/user-attachments/assets/9566437f-ae8d-4842-990f-c8c9ca6fe688)
+
+  ---
+
+  
 
 
 
