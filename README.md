@@ -4,7 +4,7 @@
 
 ---
 
- **Overview**
+ ## **Overview**
 
 - This project involves performing Exploratory Data Analysis (EDA) on a Customer Churn dataset using Python libraries: Pandas, Seaborn, and Matplotlib. The goal is to uncover insights into why customers churn by examining trends, patterns, and correlations within the data.
 
@@ -34,7 +34,7 @@ import seaborn as sns
 
 # **Data Cleaning**
 
-- Loaded the dataset: Customer Churn.csv-- Replaced blank values in TotalCharges with 0 and converted it to float.-- Confirmed:
+ - Loaded the dataset: Customer Churn.csv-- Replaced blank values in TotalCharges with 0 and converted it to float.-- Confirmed:
 
 No null values ✅
 
