@@ -111,40 +111,9 @@ sns.pairplot(df[['MonthlyCharges', 'TotalCharges', 'tenure', 'Churn']], hue='Chu
 - Customers with Fiber Optic internet and high monthly charges are more likely to churn.-- Short tenure and senior citizens are churn-prone.-- Contract type, payment method, and tech support play a significant role in retention.
 
 
----
-
-
- **Interview Questions & Prep**
-
--  What is EDA and why is it important?
-
-It is the process of visually and statistically analyzing data to find patterns, anomalies, and trends.
-
-- Which plots are used to check correlation?
-
-Heatmap, Pairplot
-
--  How do you handle skewed data?
-
-Use log/sqrt transformation or detect via boxplots.
-
-- How to detect multicollinearity?
-
-Use correlation matrix or VIF scores.
-
-- What are univariate, bivariate, and multivariate analyses?
-
-Univariate = 1 variable; Bivariate = 2 variables; Multivariate = 2+ variables
-
-- Difference between heatmap and pairplot?
-
-Heatmap shows correlations; pairplot shows scatter plots + histograms.
-
-- How do you summarize your insights?
-
-Through visuals + bullet points highlighting key trends.
 
 ---
+
 
 
 ### **Author**
@@ -155,3 +124,5 @@ _Aspiring Business and Data Analyst_
 
 🔗 [LinkedIn] :-www.linkedin.com/in/anjalissingh 
 
+
+---
